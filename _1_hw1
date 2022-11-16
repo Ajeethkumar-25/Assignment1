@@ -1,0 +1,17 @@
+num = int(input("enter the numbers : "))
+value1 = 0 
+value2 = 1
+count = 0
+if num <= 0:
+    print("enter the positive number")
+elif num ==1:
+    print("fibonacci number upto :")
+    print(value1)
+else:
+    print("fibonacci number is :")
+    while count<num:
+        print(value1)
+        res = value1 + value2
+        value1 = value2
+        value2 = res
+        count+=1
