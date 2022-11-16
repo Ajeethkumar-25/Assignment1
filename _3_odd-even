@@ -1,0 +1,7 @@
+value = int(input("enter the number: "))
+
+for number in range(1, value):
+    if (number%2 !=0):
+        print(number, "its odd day dont go outside")
+    else:
+        print(number, "its even day, So u will be free")
