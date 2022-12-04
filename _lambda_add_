@@ -1,0 +1,3 @@
+value = int(input("Enter the value : "))
+result= lambda value : value+25
+print(result(value))
