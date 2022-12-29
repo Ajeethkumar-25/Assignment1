@@ -1,0 +1,12 @@
+# list= [8,2,3,0,7]
+# print(sum(list))
+def ADD():
+    number1 = int(input("Enter the numbers : "))
+    number2 = int(input("Enter the numbers : "))
+    number3 = int(input("Enter the numbers : "))
+    number4 = int(input("Enter the numbers : "))
+    number5 = int(input("Enter the numbers : "))
+    addition = number1 + number2 + number3 + number4 + number5
+    print("Result : ", addition)
+
+ADD()

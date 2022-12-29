@@ -1,0 +1,7 @@
+# str = input("enter the string: ")
+# print(str[::-1])
+
+def reverse():
+    str = input("Enter the string :")
+    print(str[::-1])
+reverse()

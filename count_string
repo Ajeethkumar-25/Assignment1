@@ -1,0 +1,15 @@
+def string(str):
+    upper = 0
+    lower = 0
+    for i in str:
+        if i.isupper():
+           upper+=1
+        elif i.islower():
+           lower+=1
+        else:
+           pass
+    print ("Original String : ", str)
+    print ("No. of Upper case characters : ", upper)
+    print ("No. of Lower case Characters : ", lower)
+
+string('The quick Brow Fox')
