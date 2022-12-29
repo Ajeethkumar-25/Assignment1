@@ -1,0 +1,7 @@
+num = int(input("Enter the number :"))
+class_dict= dict()
+for i in range(num):
+    key = input("Enter the keys:")
+    value = input("Enter the values:")
+    class_dict[key] = value
+print(class_dict)

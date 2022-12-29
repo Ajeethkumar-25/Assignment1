@@ -1,0 +1,15 @@
+num = int(input("Enter the number :"))
+class_dict= dict()
+for i in range(num):
+    key = input("Enter the keys:")
+    value = input("Enter the values:")
+    class_dict[key] = value
+print(class_dict)
+
+sorted_values = sorted(class_dict.values())
+new_dict = {}
+for v in sorted_values:
+    for k in class_dict.keys():
+        if class_dict[k] == v:
+            new_dict[k] = class_dict[k]
+print(new_dict)
